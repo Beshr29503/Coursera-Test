@@ -4,7 +4,6 @@ h1 {
         margin-bottom:15px;
     }
 section { 
-	    background-color:pink;
 	    font-size:125%;
 	    float:left;
 	    border:1px solid black;
@@ -17,3 +16,9 @@ section > div {
 	    font-size:100%;
 	    border:1px solid black;
     } 
+@media (min-width:992px;) {
+	.foot , .hand , .basket { width:33.3%; }
+}
+.foot { background-color:#0000ff; }
+.hand { background-color:#00ff00; }
+.basket { background-color:#ff0000; }
