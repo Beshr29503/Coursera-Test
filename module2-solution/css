@@ -1,6 +1,7 @@
 h1 { 
         font-size:175%;
         text-align:center;
+        margin-bottom:15px;
     }
 section { 
 	    background-color:pink;
