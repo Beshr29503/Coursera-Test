@@ -1,0 +1,36 @@
+.navbar-brand {
+	font-weight: bold;
+	font-size: 2em;
+	margin: 20px 20px 20px 20px;
+}
+
+h1 {
+	margin-bottom: 40px;
+	font-weight: bold;
+}
+
+#chicken-menu , #sushi-menu , #beef-menu {
+	height: 1000px;
+	background-color: grey;
+	margin: 20px;
+	text-align: center;
+	padding: 35px;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#chicken-details , #sushi-details , #beef-details {
+	font-size:75%;
+	font-weight:normal
+} 
+
+li {
+	font-size: 1.5em;
+}
+
+@media (max-width:614px) {
+	#chicken-menu , #sushi-menu , #beef-menu {
+		margin: 50px;
+	}
+}
+
